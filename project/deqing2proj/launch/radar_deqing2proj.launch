@@ -1,0 +1,13 @@
+<launch>
+  <arg name="radar_num" default="4" />
+  <arg name="port" default="13000" />
+  <arg name="radar_information_dir" default="$(find radar_deqing2proj)/" />
+  <arg name="same_direction" default="0" />  <!--是否同向关联-->>
+
+  <node pkg="radar_deqing2proj" type="radar_deqing2proj_node"  name="radar_deqing2proj_node" output="screen" >
+    <param name="radar_num" value="$(arg radar_num)"/>
+    <param name="port" value="$(arg port)"/>
+    <param name="radar_information_dir" value="$(arg radar_information_dir)" />
+    <param name="same_direction" value="$(arg same_direction)"/>
+  </node>
+</launch>
