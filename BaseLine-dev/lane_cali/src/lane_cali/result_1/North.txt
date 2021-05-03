@@ -1,0 +1,10 @@
+come_point_0  x = 2.76492  y=  -16.6678
+come_point_1  x = 4.80581  y=  -18.5127
+come_point_2  x = 6.49932  y=  -21.0588
+come_point_3  x = 8.4948  y=  -23.0894
+come_point_4  x = 10.0787  y=  -25.7453
+come_point_5  x = 11.5851  y=  -28.1367
+leave_point_0  x = -4.56253  y=  -4.2987
+leave_point_1  x = -2.53565  y=  -7.26094
+leave_point_2  x = -0.95529  y=  -10.4055
+leave_point_3  x = 0.799066  y=  -13.5151

@@ -1,0 +1,20 @@
+<launch>
+  <arg name="dist_before_stop_line" default="3.5" /> 
+  <arg name="dist_after_stop_line" default="3.5" /> 
+  <arg name="pub_topic" default="/lane/objects" /> 
+  <arg name="sub_topic" default="/detection/object_tracker/objects" />
+  <arg name="cordinate_rotation" default="-55" /> 
+  <arg name="config_dir" default="/home/jingjing/lane_cali/src/lane_cali/config/lane_config.json" />
+  <arg name="tranMatrix" default="69.1641,3.46588,-1.29915,0.00881871,-0.03003032,3.08007152" />
+
+	<node name="lane_cali" pkg="lane_cali" type="lane_cali" output="screen"/>
+    <param name="dist_before_stop_line" value="$(arg dist_before_stop_line)" />
+    <param name="dist_after_stop_line" value="$(arg dist_after_stop_line)" />
+    <param name="sub_topic" value="$(arg sub_topic)" />
+    <param name="pub_topic" value="$(arg pub_topic)" />
+    <param name="cordinate_rotation" value="$(arg cordinate_rotation)" />
+    <param name="config_dir" value="$(arg config_dir)" />
+    <param name="tranMatrix" value="$(arg tranMatrix)" />
+
+</launch>
+
