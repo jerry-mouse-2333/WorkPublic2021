@@ -1,0 +1,8 @@
+{	"radar_ip" : "18.16.50.116",
+    "vehicle_stop_line": 70,
+    "close_direction_lane_num": 2,
+    "close_lane": "0.9,-2,-5",
+    "away_direction_lane_num": 1,
+    "away_lane":"0.9,3.9"
+}
+

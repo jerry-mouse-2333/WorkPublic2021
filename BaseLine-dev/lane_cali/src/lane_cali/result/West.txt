@@ -1,0 +1,7 @@
+come_point_0  x = 66.8702  y=  -23.6023
+come_point_1  x = 64.1124  y=  -25.5765
+come_point_2  x = 62.2651  y=  -27.9884
+come_point_3  x = 59.2753  y=  -29.4844
+leave_point_0  x = 57.0815  y=  -30.6998
+leave_point_1  x = 54.4817  y=  -32.6907
+leave_point_2  x = 52.0115  y=  -34.8262
